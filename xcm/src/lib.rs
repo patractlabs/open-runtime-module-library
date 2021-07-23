@@ -21,7 +21,7 @@ pub mod module {
 		/// The required origin for sending XCM as parachain sovereign.
 		///
 		/// Typically root or the majority of collective.
-		type SovereignOrigin: EnsureOrigin<Self::Origin>;
+		type SovereignOrigin: EnsureOrigin<<Self as frame_system::Config>::Origin>;
 	}
 
 	#[pallet::pallet]
