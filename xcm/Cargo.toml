@@ -13,8 +13,8 @@ codec = { package = "parity-scale-codec", version = "2.0.0", default-features = 
 frame-support = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.8", default-features = false }
 frame-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.8", default-features = false }
 
-xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-098", default-features = false }
-pallet-xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-098", default-features = false }
+xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp", default-features = false }
+pallet-xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp", default-features = false }
 
 [features]
 default = ["std"]
