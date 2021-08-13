@@ -17,10 +17,10 @@ sp-std = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v
 frame-support = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.8", default-features = false }
 frame-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.8", default-features = false }
 
-cumulus-primitives-core = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp", default-features = false }
+cumulus-primitives-core = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp-compact", default-features = false }
 
-xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp", default-features = false }
-xcm-executor = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp", default-features = false }
+xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact", default-features = false }
+xcm-executor = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact", default-features = false }
 
 orml-xcm-support = { path = "../xcm-support", default-features = false }
 orml-traits = { path = "../traits", default-features = false}
@@ -30,19 +30,19 @@ sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-
 pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.8" }
 
 # cumulus
-cumulus-primitives-core = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp" }
-cumulus-pallet-dmp-queue = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp" }
-cumulus-pallet-xcmp-queue = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp" }
-cumulus-pallet-xcm = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp" }
-parachain-info = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp" }
+cumulus-primitives-core = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp-compact" }
+cumulus-pallet-dmp-queue = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp-compact" }
+cumulus-pallet-xcmp-queue = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp-compact" }
+cumulus-pallet-xcm = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp-compact" }
+parachain-info = { git = "https://github.com/patractlabs/cumulus", branch = "patract-sandbox-xcmp-compact" }
 
 # polkadot
-polkadot-parachain = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp" }
-xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp" }
-xcm-executor = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp" }
-xcm-builder = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp" }
-pallet-xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp" }
-polkadot-runtime-parachains = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp" }
+polkadot-parachain = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact" }
+xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact" }
+xcm-executor = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact" }
+xcm-builder = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact" }
+pallet-xcm = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact" }
+polkadot-runtime-parachains = { git = "https://github.com/patractlabs/polkadot", branch = "patract-sandbox-xcmp-compact" }
 
 orml-tokens = { path = "../tokens" }
 orml-xcm = { path = "../xcm" }
